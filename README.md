@@ -1,7 +1,7 @@
 [![atl-text-1](https://img.shields.io/badge/Version-3.9.1-red?logo=Python&style=flat)](https://www.python.org/) [![atl-text-3](https://img.shields.io/badge/License-MIT-red?logo=License&style=flat)](https://github.com/DevStrikerTech)
 
 
-# Discord Dashboard
+# Discord.py Bot Sereies
 
 [![Tutorial]()]()
 
