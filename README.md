@@ -5,7 +5,7 @@
 
 [![Tutorial]()]()
 
-YouTube Playlist: 
+YouTube Playlist: https://www.youtube.com/playlist?list=PL9nZZVP3OGOAx2S75YdBkrIbVpiSL5oc5
 
 ## Installation
 ```bash
