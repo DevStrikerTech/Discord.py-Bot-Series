@@ -3,7 +3,7 @@
 
 # Discord.py Bot Sereies
 
-[![Tutorial]()]()
+[![Tutorial](https://raw.githubusercontent.com/DevStrikerTech/Discord.py-Bot-Series/main/assets/part%20-%201.png?token=AIQMJPAZU3J73HMS6PHPC2DAFLDOS)]()
 
 YouTube Playlist: https://www.youtube.com/playlist?list=PL9nZZVP3OGOAx2S75YdBkrIbVpiSL5oc5
 
