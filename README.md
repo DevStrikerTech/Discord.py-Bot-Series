@@ -14,11 +14,20 @@ pip install -r requirements.txt
 
 ## Python Packages
 
+Discord.py: https://discordpy.readthedocs.io/en/latest/intro.html
+
+Pillow: https://pillow.readthedocs.io/en/stable/installation.html
+
 Python-dotenv: https://pypi.org/project/python-dotenv/
 
 Requests: https://pypi.org/project/requests/
+
+Dateutil: https://pypi.org/project/python-dateutil/
 
 ## Documentations
 
 Discord: https://discord.com/developers/docs/intro
 
+Discord.py: https://discordpy.readthedocs.io/en/latest/index.html
+
+Pillow: https://pillow.readthedocs.io/en/stable/index.html
