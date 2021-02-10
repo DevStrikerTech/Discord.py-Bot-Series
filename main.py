@@ -22,10 +22,16 @@ class TutorialBot(commands.Cog):
     # Error Handlers
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
+        # Uncomment line 26 for printing debug
         # await ctx.send(error)
 
+        # Unknown command
         if isinstance(error, commands.CommandNotFound):
             await ctx.send('Invalid Command!')
+
+        # Bot does not have permission
+        elif isinstance(error, commands.MissingPermissions):
+            await ctx.send('Bot Permission Missing!')
 
 
 # Gateway intents
