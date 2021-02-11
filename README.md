@@ -24,6 +24,8 @@ Requests: https://pypi.org/project/requests/
 
 Dateutil: https://pypi.org/project/python-dateutil/
 
+Tabulate: https://pypi.org/project/tabulate/
+
 ## Documentations
 
 Discord: https://discord.com/developers/docs/intro
