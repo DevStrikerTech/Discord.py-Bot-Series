@@ -84,7 +84,7 @@ class ChatLeaderboard(commands.Cog):
         draw_on_image.text(name_text_position, user_name_table, 'white', font=font)
         draw_on_image.text(message_count_text_position, user_message_count_table, 'white', font=font)
 
-        # Save Image
+        # Save image
         image_template.convert('RGB').save('chat_leaderboard.jpg', 'JPEG')
 
         await ctx.send(file=discord.File('chat_leaderboard.jpg'))
