@@ -2,7 +2,7 @@ import json
 import discord
 from tabulate import tabulate
 from discord.ext import commands
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageFont, ImageDraw
 
 
 class ChatLeaderboard(commands.Cog):
@@ -13,25 +13,25 @@ class ChatLeaderboard(commands.Cog):
     async def on_message(self, message):
         if not message.author.bot:
             if not message.content.startswith('!'):
-                with open('./database/chat_leaderboard.json', 'r') as file:
+                with open('.\\databases\\chat_leaderboard.json', 'r') as file:
                     chat_data = json.load(file)
                     new_user = str(message.author.id)
 
                 # Update existing user
                 if new_user in chat_data:
                     chat_data[new_user] += 1
-                    with open('./database/chat_leaderboard.json', 'w') as update_user_data:
+                    with open('.\\databases\\chat_leaderboard.json', 'w') as update_user_data:
                         json.dump(chat_data, update_user_data, indent=4)
 
-                # Add new user
+                # add new user
                 else:
                     chat_data[new_user] = 1
-                    with open('./database/chat_leaderboard.json', 'w') as new_user_data:
+                    with open('.\\databases\\chat_leaderboard.json', 'w') as new_user_data:
                         json.dump(chat_data, new_user_data, indent=4)
 
     @commands.command()
     async def chat(self, ctx):
-        with open('./database/chat_leaderboard.json', 'r') as file:
+        with open('.\\databases\\chat_leaderboard.json', 'r') as file:
             chat_data = json.load(file)
 
         user_ids = list(chat_data.keys())
@@ -68,7 +68,7 @@ class ChatLeaderboard(commands.Cog):
                                             numalign='left')
 
         # Image
-        image_template = Image.open('./assets/chat_leaderboard_template.png')
+        image_template = Image.open('.\\assets\\chat_leaderboard_template.png')
 
         # Font
         font = ImageFont.truetype('theboldfont.ttf', 14)
@@ -80,9 +80,9 @@ class ChatLeaderboard(commands.Cog):
 
         # Draws
         draw_on_image = ImageDraw.Draw(image_template)
-        draw_on_image.text(rank_text_position, user_rank_table, "white", font=font)
-        draw_on_image.text(name_text_position, user_name_table, "white", font=font)
-        draw_on_image.text(message_count_text_position, user_message_count_table, "white", font=font)
+        draw_on_image.text(rank_text_position, user_rank_table, 'white', font=font)
+        draw_on_image.text(name_text_position, user_name_table, 'white', font=font)
+        draw_on_image.text(message_count_text_position, user_message_count_table, 'white', font=font)
 
         # Save Image
         image_template.convert('RGB').save('chat_leaderboard.jpg', 'JPEG')
