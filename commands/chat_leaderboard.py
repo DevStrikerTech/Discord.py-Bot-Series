@@ -23,7 +23,7 @@ class ChatLeaderboard(commands.Cog):
                     with open('.\\databases\\chat_leaderboard.json', 'w') as update_user_data:
                         json.dump(chat_data, update_user_data, indent=4)
 
-                # add new user
+                # Add new user
                 else:
                     chat_data[new_user] = 1
                     with open('.\\databases\\chat_leaderboard.json', 'w') as new_user_data:
