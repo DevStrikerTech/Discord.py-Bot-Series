@@ -1,7 +1,7 @@
 [![atl-text-1](https://img.shields.io/badge/Version-3.9.1-blue?logo=Python&style=flat)](https://www.python.org/) [![atl-text-3](https://img.shields.io/badge/License-MIT-blue?logo=License&style=flat)](https://github.com/DevStrikerTech)
 
 
-# Discord.py Bot Sereies
+# Discord.py Bot Series
 
 [![Tutorial](https://raw.githubusercontent.com/DevStrikerTech/Discord.py-Bot-Series/main/assets/part%20-%201.png?token=AIQMJPAZU3J73HMS6PHPC2DAFLDOS)](https://www.youtube.com/watch?v=-uR6ivfMjHU)
 
