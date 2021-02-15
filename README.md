@@ -26,6 +26,10 @@ Dateutil: https://pypi.org/project/python-dateutil/
 
 Tabulate: https://pypi.org/project/tabulate/
 
+Matplotlib: https://matplotlib.org/stable/users/installing.html
+
+Pandas: https://pandas.pydata.org/docs/getting_started/index.html
+
 ## Documentations
 
 Discord: https://discord.com/developers/docs/intro
