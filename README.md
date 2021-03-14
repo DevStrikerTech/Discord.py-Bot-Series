@@ -37,3 +37,5 @@ Discord: https://discord.com/developers/docs/intro
 Discord.py: https://discordpy.readthedocs.io/en/latest/index.html
 
 Pillow: https://pillow.readthedocs.io/en/stable/index.html
+
+Black: https://black.readthedocs.io/en/stable/index.html
