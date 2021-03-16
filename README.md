@@ -30,6 +30,8 @@ Matplotlib: https://matplotlib.org/stable/users/installing.html
 
 Pandas: https://pandas.pydata.org/docs/getting_started/index.html
 
+Black: https://black.readthedocs.io/en/stable/installation_and_usage.html
+
 ## Documentations
 
 Discord: https://discord.com/developers/docs/intro
@@ -37,5 +39,3 @@ Discord: https://discord.com/developers/docs/intro
 Discord.py: https://discordpy.readthedocs.io/en/latest/index.html
 
 Pillow: https://pillow.readthedocs.io/en/stable/index.html
-
-Black: https://black.readthedocs.io/en/stable/index.html
