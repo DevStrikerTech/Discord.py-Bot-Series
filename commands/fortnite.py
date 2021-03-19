@@ -17,7 +17,7 @@ class Fortnite(commands.Cog):
 
         if fortnite_response['status'] == 200:
             # Images
-            fortnite_template_image = Image.open('./assets/fortnite_template.png')
+            fortnite_template_image = Image.open('.\\assets\\fortnite_template.png')
 
             # Fonts
             username_font = ImageFont.truetype('theboldfont.ttf', 50)
